@@ -60,7 +60,7 @@ class SpellCheckerTest {
 
     @Test
     void testRecommendClosestAlphabeticalWord() {
-        
+
         SpellChecker checker = new SpellChecker();
         checker.addWord("bank");
         checker.addWord("bark");
